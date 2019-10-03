@@ -53,12 +53,12 @@ class CalculateCube{
 	}
 }
 
-class CalculateRadius{
+class CalculateExtent{
 	
-	double circle(double x) {
+	double calculateExtent(double r) {
 		
 		double radius = 0;
-		radius = x * x * Math.PI;
+		radius = r * 2 * Math.PI;
 		return radius;
 	}
 }

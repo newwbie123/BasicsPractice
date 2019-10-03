@@ -46,10 +46,10 @@ public class StudentExecutioner {
 		int result1 = C2.cube(6);
 		System.out.println("Volume of the cube with " + C2.getX() + " length is " + result1);
 		
-		CalculateRadius R1 = new CalculateRadius();
+		CalculateExtent E1 = new CalculateExtent();
 		
-		double resultR = R1.circle(10);
-		System.out.println(resultR);
+		double resultE = E1.calculateExtent(10);
+		System.out.println(resultE);
 	}
 
 }
